@@ -38,7 +38,7 @@ void main() async {
   String result = a > b ? "a is greater" : "b is greater";
   print(result);
 
-  Set<int> numberSet = {1, 2, 2, 3, 4};
+  Set<int> numberSet = {1, 2, 3, 4};
   print("Set: $numberSet");
 
   numberSet.add(5);
